@@ -1,0 +1,1 @@
+(ls "$env:ChocolateyInstall\lib" | select basename).basename | % {'cinst ' + ($_ -replace "\.\d+", "")}  | sort -unique | Out-File ~\choc-export.ps1
