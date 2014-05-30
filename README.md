@@ -15,7 +15,7 @@ gitextensions.2.47.3
 heroku-toolbelt.0.1.0
 ```
 
-will export a script named ```choco-export.ps1``` to your home directory containing
+will export a script named ```choc-export.ps1``` to your home directory containing
 
 ```
 cinst ConEmu
