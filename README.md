@@ -3,7 +3,7 @@ Chocolatey Eexport
 
 Export a ps1 script to re-install everything you've installed via chocolatey.
 
-Running ```cex.ps1``` will iterate through your CHOCOLATEY-INSTALL\lib folder, remove duplicates and version numbers, and output a script prepented with ```cinst```
+Running ```cex.ps1``` will iterate through your CHOCOLATEY-INSTALL\lib folder, remove duplicates and version numbers, and output a script prepended with ```cinst```
 
 A lib folder with the following:
 ```
